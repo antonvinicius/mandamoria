@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/back-icon.png" type="image/x-icon">
+    <title>MandaMoria</title>
+</head>
+
+<body>
+    <div id="audio">
+        <button id="play" onclick="play()"><span class="material-icons">
+                play_arrow
+            </span></button>
+        <button id="pause" onclick="pause()"><span class="material-icons">
+                pause
+            </span></button>
+        <button id="stop" onclick="stop()"><span class="material-icons">
+                stop
+            </span></button>
+        <audio id="audio-src" autoplay loop src="./assets/audio/The Mandalorian.mp3"></audio>
+    </div>
+    <div id="gameBoard">
+    </div>
+    <div id="gameOver">
+        <div>
+            Parabéns, você completou o jogo!
+        </div>
+        <button id="restart" onclick="restart()">Jogue novamente</button>
+    </div>
+
+    <script src="./scripts/game.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
