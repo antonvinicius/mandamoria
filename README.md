@@ -7,3 +7,7 @@ Memory puzzle game based on TV Show "The Mandalorian"
 
 # Demo
 https://mandamoria.netlify.app/
+
+# Screenshot
+![image](https://user-images.githubusercontent.com/58265177/103834283-61ea7980-5059-11eb-8dee-a145628310c5.png)
+
